@@ -12,7 +12,7 @@ for (let i = 0; i < 25; i++) {
  return array
 }
 function whileLoop(Number) {
-  while (number > 0) {
+  while (Number > 0) {
     console.log(--Number)
   }
   return 'done'
