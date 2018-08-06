@@ -17,11 +17,12 @@ function whileLoop(Number) {
   }
   return 'done'
 }
-function doWhileLoop(array)
+function doWhileLoop(array) {
 function maybeTrue() {
 do {
   array.pop()
   } 
   while (array.length > 0 || maybeTrue())
   return array
-}
+  }
+}  
